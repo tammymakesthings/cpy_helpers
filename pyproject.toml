@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cpy_helpers"
+version = "0.1.0"
+description = "CircuitPython Development Helpers"
+authors = ["Tammy Cravit <tammy@tammymakesthings.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+pytest-click = "^1.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
