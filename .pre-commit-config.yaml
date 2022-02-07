@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2020 Diego Elio Pettenò
+#
+# SPDX-License-Identifier: Unlicense
+
+fail_fast: true
+default_language_version:
+  python: python3.8
+exclude: ^(poetry.lock|.pre-commit-config.yaml|.pylintrc)$
+repos:
+-   repo: https://github.com/python/black
+    rev: 20.8b1
+    hooks:
+    - id: black
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace

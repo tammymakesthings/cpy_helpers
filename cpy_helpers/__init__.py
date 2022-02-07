@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Tammy Cravit
+#
+# SPDX-License-Identifier: MIT
+
 """
 The cpy_helpers module provides development helpers for CircuitPython
 development.
@@ -5,5 +9,5 @@ development.
 * Author: Tammy Cravit <tammy@tammymakesthings.com>
 """
 
-__version__ = '0.1.0'
-__author__ = 'Tammy Cravit <tammy@tammymakesthings.com>'
+__version__ = "0.1.0"
+__author__ = "Tammy Cravit <tammy@tammymakesthings.com>"
